@@ -77,13 +77,7 @@ const education = [
     year: "2021",
     score: "72.45%"
   },
-  {
-    degree: "12th (HSC)",
-    institution: "PDEA, Pune",
-    board: "State Board",
-    year: "2018",
-    score: "54.05%"
-  }
+  
 ];
 
 const contactInfo = {
