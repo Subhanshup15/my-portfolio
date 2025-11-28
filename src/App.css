@@ -30,7 +30,7 @@ a {
 
 .hero-content {
   text-align: center;
-    margin: 0 auto;
+  margin: 0 auto;
 
 }
 
@@ -287,10 +287,99 @@ a {
   }
 
   .navbar-links {
-    display: none; /* simple mobile: hide links, you can add a burger menu later */
+    display: none;
+    /* simple mobile: hide links, you can add a burger menu later */
   }
 
   .portfolio {
     padding: 0 1rem 2rem;
   }
+}
+
+
+/* About Page */
+
+.center-container {
+  max-width: 900px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.about-photo-container {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 1.6rem;
+}
+
+.about-photo {
+  width: 180px;
+  height: 180px;
+  border-radius: 999px;
+  object-fit: cover;
+  border: 3px solid #7bdcb5;
+  box-shadow: 0px 10px 25px rgba(0, 255, 150, 0.25);
+}
+.family-images {
+  margin-top: 1.8rem;
+  display: flex;
+  justify-content: center;
+  gap: 1.5rem;
+  flex-wrap: wrap;
+}
+
+.family-images div {
+  text-align: center;
+}
+
+.family-images img {
+  width: 183px;
+  height: 185px;
+  border-radius: 12px;
+  object-fit: cover;
+  border: 2px solid rgba(123, 220, 181, 0.5);
+  box-shadow: 0px 8px 18px rgba(0, 0, 0, 0.3);
+}
+
+/* protect but allow click */
+.family-photo {
+  width: 180px;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 12px;
+  cursor: pointer;
+  user-select: none;
+  -webkit-user-drag: none;
+}
+
+.about-card p {
+  margin-bottom: 0.45rem;
+}
+
+/* Popup Modal */
+.popup-overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(0,0,0,0.75);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 500;
+}
+
+.popup-content {
+  max-width: 90vw;
+  max-height: 90vh;
+}
+
+/* In popup: block download + copy */
+.popup-image {
+  width: auto;
+  height: auto;
+  max-height: 90vh;
+  max-width: 90vw;
+  border-radius: 10px;
+  pointer-events: none;
+  user-select: none;
+  -webkit-user-drag: none;
+  border: 3px solid #7bdcb5;
 }
