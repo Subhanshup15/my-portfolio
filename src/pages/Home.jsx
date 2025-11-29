@@ -72,6 +72,19 @@ const projects = [
       "Delivered a mobile-friendly interface for better user experience.",
       "Ensured proper form validations, secure admin login, and dynamic content loading using jQuery and AJAX."
     ]
+  },
+  {
+    name: "Personal Portfolio Website (React + CSS)",
+    role: "Full Stack Developer",
+    techStack: [" React.js ", "JavaScript (ES6)", "CSS3", "Flexbox", "Hooks (useState)"],
+    description:
+      "Developed a fully responsive personal portfolio website to showcase my profile, professional skills, family details, and completed projects. Implemented a modern UI using React functional components, CSS animations, and modular design patterns.",
+    highlights: [
+      "Glassmorphism UI with neon border accents.",
+      "Image protection (disable download, drag, right-click).",
+      "Reusable components for easy scaling.",
+      "Smooth animations and responsive layout"
+    ]
   }
 ];
 
