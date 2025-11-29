@@ -93,15 +93,15 @@ const projects = [
 const education = [
   {
     degree: "MCS (Master of Computer Science)",
-    institution: "Annasaheb Magar Mahavidyalaya",
-    university: "Pune University",
+    institution: "PDEA, Pune",
+    university: "Savitribai Phule Pune University",
     year: "2023",
     score: "CGPA 8.3 (approx.)"
   },
   {
     degree: "BCS (Bachelor of Computer Science)",
     institution: "PDEA, Pune",
-    university: "Pune University",
+    university: "Savitribai Phule Pune University",
     year: "2021",
     score: "72.45%"
   },
