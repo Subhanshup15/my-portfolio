@@ -188,7 +188,7 @@ const Home = () => {
       </section>
 
       {/* PROJECTS */}
-      <section className="section" id="projects">
+      {/* <section className="section" id="projects">
         <h3 className="section-title">Projects</h3>
         <div className="grid grid-2">
           {projects.map((project, index) => (
@@ -207,6 +207,45 @@ const Home = () => {
                 ))}
               </ul>
               <p className="project-description">{project.link}</p>
+            </div>
+          ))}
+        </div>
+      </section> */}
+
+      <section className="section" id="projects">
+        <h3 className="section-title">Projects</h3>
+
+        <div className="grid grid-2">
+          {projects.map((project, index) => (
+            <div className="card project-card" key={index}>
+
+              <h4>{project.name}</h4>
+              <p className="project-meta">
+                {project.role} @ <strong>{project.company}</strong>
+              </p>
+
+              <p className="project-description">{project.description}</p>
+
+              <p className="project-tech">
+                <strong>Tech Stack:</strong> {project.techStack.join(", ")}
+              </p>
+
+              <ul className="list">
+                {project.highlights.map((h, idx) => (
+                  <li key={idx}>{h}</li>
+                ))}
+              </ul>
+
+              {project.link && (
+                <a
+                  href={project.link}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="project-link-btn"
+                >
+                  Visit Project
+                </a>
+              )}
             </div>
           ))}
         </div>
