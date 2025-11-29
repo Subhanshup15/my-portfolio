@@ -59,6 +59,19 @@ const projects = [
       "Optimized database structures to minimize query latency.",
       "Delivered a mobile-friendly interface for better user experience."
     ]
+  },
+  {
+    name: "PMC PARBHANI AYURVEDIC MEDICINE COLLEGE",
+    company: "Bright Sea Technology",
+    role: "Full Stack Developer",
+    techStack: [" CORE PHP ", "jQuery", "HTML", "CSS", "JavaScript", "MySQL"],
+    description:
+      "Developed a dynamic and responsive website for an Mbbs college with a fully functional admin panel",
+    highlights: [
+      "Focused on user-friendly UI/UX, responsive design, and efficient content management..",
+      "Delivered a mobile-friendly interface for better user experience.",
+      "Ensured proper form validations, secure admin login, and dynamic content loading using jQuery and AJAX."
+    ]
   }
 ];
 
