@@ -8,7 +8,10 @@ body {
   font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
   background: #060b10;
   color: #f5f5f5;
+<<<<<<< HEAD
   flex-direction: column;
+=======
+>>>>>>> 2e3019b0cabcf5585c6a64a6c9380f313cb460f0
 }
 
 a {
@@ -29,9 +32,13 @@ a {
 }
 
 .hero-content {
+<<<<<<< HEAD
   text-align: center;
   margin: 0 auto;
 
+=======
+  text-align: left;
+>>>>>>> 2e3019b0cabcf5585c6a64a6c9380f313cb460f0
 }
 
 .hero-greeting {
@@ -160,7 +167,10 @@ a {
 .project-card h4,
 .education-card h4 {
   margin-bottom: 0.6rem;
+<<<<<<< HEAD
   color: #7bdcb5;
+=======
+>>>>>>> 2e3019b0cabcf5585c6a64a6c9380f313cb460f0
 }
 
 /* Grids */
@@ -288,14 +298,19 @@ a {
   }
 
   .navbar-links {
+<<<<<<< HEAD
     display: none;
     /* simple mobile: hide links, you can add a burger menu later */
+=======
+    display: none; /* simple mobile: hide links, you can add a burger menu later */
+>>>>>>> 2e3019b0cabcf5585c6a64a6c9380f313cb460f0
   }
 
   .portfolio {
     padding: 0 1rem 2rem;
   }
 }
+<<<<<<< HEAD
 /* About Page Container */
 .center-container {
   max-width: 1050px;
@@ -932,3 +947,5 @@ a {
     display: flex;
   }
 }
+=======
+>>>>>>> 2e3019b0cabcf5585c6a64a6c9380f313cb460f0

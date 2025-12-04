@@ -10,10 +10,15 @@
     "preview": "vite preview"
   },
   "dependencies": {
+<<<<<<< HEAD
     "@fortawesome/fontawesome-free": "^7.1.0",
     "react": "^19.2.0",
     "react-dom": "^19.2.0",
     "react-router-dom": "^7.9.6"
+=======
+    "react": "^19.2.0",
+    "react-dom": "^19.2.0"
+>>>>>>> 2e3019b0cabcf5585c6a64a6c9380f313cb460f0
   },
   "devDependencies": {
     "@eslint/js": "^9.39.1",
