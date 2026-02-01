@@ -2,6 +2,8 @@ import React, { useState } from "react";
 import { BrowserRouter as Router, Routes, Route, useLocation, Link } from "react-router-dom";
 import Home from "./pages/Home";
 import About from "./pages/About";
+import Copy from "./pages/Copy";
+
 import "@fortawesome/fontawesome-free/css/all.min.css";
 import "./App.css";
 
@@ -24,6 +26,7 @@ const Layout = () => {
             <li><a href="#education">Education</a></li>
             <li><a href="#contact">Contact</a></li>
             <li><Link to="/about"></Link></li>
+            
           </ul>
 
           {/* Hamburger */}
@@ -49,6 +52,7 @@ const Layout = () => {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
+        <Route path="/copy" element={<Copy />} />
       </Routes>
 
       <footer className="footer">
